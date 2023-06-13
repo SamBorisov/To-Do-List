@@ -1,0 +1,134 @@
+/* Overall styles */
+body {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp7664129.jpg");
+    background-size: cover;
+}
+button {
+    appearance: none;
+    outline: 0;
+    background-color: rgb(124, 209, 145);
+    border: 0;
+    color: #0c1a17;
+    border-radius: 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  button:hover {
+    background-color: rgb(79, 170, 161);
+  }
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: rgb(187, 221, 210);
+  }
+  label {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  select {
+    height: 40px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: rgb(187, 221, 210);
+  }
+  
+
+/* Add To-Do styles */
+.createTask {
+  background-color: rgba(71, 31, 31, 0.425);
+  width: 50%;
+  margin: auto;
+  border-radius: 25%;
+  margin-top: 1%;
+}
+.task-priority {
+    margin-left: 2%;
+  }
+  
+.task-deadline {
+    margin-left: 2%;
+  }
+.todo-button {
+  width: 100px;
+  height: 100px;
+  margin: auto 0;
+  border-radius: 30%;
+}
+.createTaskDetials {
+  display: block;
+    justify-content: center;
+    padding: 3%;
+}
+.formContainer {
+display: flex;
+justify-content: center;
+}
+
+.todo-input {
+  width: 600px;
+}
+#priority {
+  width: 150px;
+}
+
+
+/* Task render */
+.todo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3%;
+  width: 100%;
+}
+.task-description{
+  font-size: 30px;
+  justify-content: center;
+  margin: 0 20px;
+}
+.task-details {
+  justify-content: center;
+  padding: 0 2%;
+  border: 1px dashed #0c1a17;
+  background-color: rgb(202, 174, 158);
+  border-radius: 10px;
+}
+.task-deadline{
+  width: 100%;
+}
+.delete-btn{
+  margin-right: 7%;
+  background-color: rgb(224, 116, 116);
+}
+.edit-btn{
+  background-color: rgb(182, 211, 103);
+}
+.completed {
+  text-decoration: line-through;
+}
+/* Sorting and filtering */
+#filter-select{
+background-color:rgba(98, 70, 129, 0.425);
+border: none;
+}
+#sort-by {
+  background-color:rgba(98, 70, 129, 0.425);
+  border: none;
+}
+.mainHeader{
+  font-size: 42px;
+}
